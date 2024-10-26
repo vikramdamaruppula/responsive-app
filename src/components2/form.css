@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f7f9fc;
+    margin: 0;
+  }
+  
+  .form-container-main {
+    max-width: 630px;
+    width: 100%;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 0 8px 5px #e0e0ee;
+    box-shadow: 0 0 8px 5px #e0e0ee;
+    padding: 35px 40px 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  }
+  /* .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .form-step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-step h2 {
+    color: #000073;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: .5px;
+    font-weight: 700;
+    margin: 0px;
+  }
+  
+  .form-step p {
+    color: #000;
+    max-width: 417px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: .3px;
+    margin-top: 12px;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 90%;
+    padding: 22px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border 0.3s ease;
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .error-input {
+    border-color: #ff4d4d;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 1.5rem;
+    width: 60%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .button-next {
+    background: #28a745;
+    margin-top: 10px;
+  }
+  
+  .button-next:hover {
+    background: #218838;
+  }
+  
+  .button-back {
+    background-color: #6c757d;
+    margin-right: 10px;
+  }
+  
+  .button-back:hover {
+    background-color: #5a6268;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 0.9em;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 15px;
+  }
+  .summary-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+  }
+  .summary-form p{
+    margin: 10px;
+  }
+  .remaining{
+    margin: 0;
+  }
+  .assignment-button{
+    background-color: #000073;
+    margin-bottom: 12px;
+  }

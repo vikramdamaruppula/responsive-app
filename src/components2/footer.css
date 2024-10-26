@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.footer-background{
+    background-color: #375A60;
+}
+.footer-main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-border{
+    margin: 0px 160px;
+    padding: 82px 48px;
+}
+.logo-image-footer{
+    height: auto;
+    width: 92px;
+    max-width: 100%;
+    padding-top: 34px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    margin-bottom: 4px;
+    color: #fff;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer-heading-text{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color: #fff;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.footer-text{
+    color:#fff;
+    font-size: 18px;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 280px;
+}
+.horizontal-footer-line{
+    border: 1px solid #fff;
+    margin-top: 4.2rem;
+}
+.footer-foot-background{
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    font-family: "PT Sans", sans-serif;
+    opacity: 0.8;
+    margin-top: 24px;
+}
+
+@media(max-width:768px){
+    .footer-border{
+        margin: 0px 28px;
+        padding: 0px; 
+    }
+    .footer-foot-background{
+        font-size: 13px;
+        line-height: 18px;
+        color: #fff;
+        font-family: "PT Sans", sans-serif;
+        opacity: 0.5;
+        margin:16px 4px;
+        padding-bottom: 18px;
+    }
+    ul li{
+        font-size: 14px;
+    }
+    .horizontal-footer-line{
+        margin-top: 1.6rem;
+    }
+    .footer-text{
+        font-size: 16px;
+        margin: 0;
+    }   
+    .footer-main-container{
+        display: flex;
+        flex-wrap: wrap;
+     }
+}
+
+@media(max-width:480px){
+    .footer-border{
+        margin: 0px 28px;
+        padding: 0px; 
+    }
+    .footer-main-container{
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+    }
+    .footer-foot-background{
+        font-size: 13px;
+        line-height: 18px;
+        color: #fff;
+        font-family: "PT Sans", sans-serif;
+        opacity: 0.5;
+        margin:16px 4px;
+        padding-bottom: 20px;
+    }
+    ul li{
+        font-size: 14px;
+    }
+    .horizontal-footer-line{
+        margin-top: 1.6rem;
+    }
+    .footer-text{
+        font-size: 16px;
+        margin: 0;
+    }   
+}
+
+
+
+/*  ------------------------- bottom component -------------------- */

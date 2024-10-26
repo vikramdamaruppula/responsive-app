@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Prociono&display=swap');
+.middle-background{
+    background-color: #0e1111;
+}
+.middle-main-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 12rem;
+    padding-bottom:28px ;
+}
+
+.middle-heading{
+    font-size: 36px;
+    margin-bottom: 4px;
+    font-family: "PT Sans", sans-serif;
+}
+.guide-text{
+    text-decoration: underline;
+    text-underline-offset: 16px;
+    text-decoration-thickness: 2px;
+    font-size: 18px;
+    opacity: 0.5;
+}
+.middle-description{
+    font-size: 16px;
+    line-height: 21px;
+    max-width: 66%;
+    color: #fff;
+    text-align: center;
+    font-family: "PT Sans", sans-serif;
+    text-align: left;
+    margin:32px 0px;
+}
+.middle-image-container{
+    display: flex;
+}
+.middle-image{
+    height: auto;
+    width: 250px;
+}
+
+
+@media(max-width:768px){
+    .middle-main-container{
+        flex-direction: column;
+        margin: 0px 2rem;
+        padding-bottom:28px ;
+    }
+    
+    .middle-heading{
+        font-size: 32px;
+    }
+    .guide-text{
+        font-size: 16px;
+        opacity: 0.5;
+    }
+    .middle-description{
+        font-size: 14px;
+        line-height: 19px;
+        max-width: 100%;
+    }
+    .middle-image-container{
+        margin-top: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .middle-image{
+        height: auto;
+        width: 220px;
+    }
+}
+
+@media(max-width:480px){
+    .middle-main-container{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 2rem;
+    }
+    
+    .middle-heading{
+        font-size: 28px;
+    }
+    .guide-text{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .middle-description{
+        font-size: 14px;
+        line-height: 19px;
+        max-width: 100%;
+        color: #fff;
+        text-align: center;
+        font-family: "PT Sans", sans-serif;
+        text-align: left;
+        margin:20px 0px;
+    }
+    .middle-image-container{
+        display: flex;
+        margin-top: 24px;
+    }
+    .middle-image{
+        height: auto;
+        width: 40vmin;
+    }
+}
